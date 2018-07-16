@@ -1,0 +1,122 @@
+body {
+    background: #f0f3f6;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #4a4a4a;
+}
+
+input::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+.bg-shadow {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f0f3f6;
+    box-shadow: 0px 0px 10px 2px #d4dfec;
+    border-radius: 5px;
+    width: 430px;
+    height: 326px;
+}
+
+.content {
+    width: 400px;
+    height: 296px;
+    border: 1px solid #979797;
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+}
+
+.input-pre {
+    position: relative;
+    width: 100%;
+}
+
+.input-pre+.input-pre {
+    margin: 20px 0px;
+}
+
+.loginForm {
+    margin: 30px 20px 20px 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 323px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #979797;
+    padding: 0 0 0 35px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #9b9b9b;
+    vertical-align: middle;
+}
+.remember-lable{
+    vertical-align: middle;
+}
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: #969696;
+    width: 20px;
+    height: 20px;
+}
+
+.ic-user {
+    background: url(../image/用户@2x.png) no-repeat;
+}
+
+.ic-pswd {
+    background: url(../image/密码@2x.png) no-repeat;
+}
+
+.remember,
+.forget-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.remember {
+    float: left;
+}
+
+.forget-btn {
+    float: right;
+}
+
+.btn {
+    display: block;
+    width: 360px;
+    height: 40px;
+    background: #4a90e2;
+    border-radius: 5px;
+    border: 1px solid #4a90e2;
+    font-size: 14px;
+    font-family: ArialRoundedMTBold;
+    color: #ffffff;
+}
+
+.to-register {
+    float: left;
+    margin-left: 20px;
+}
